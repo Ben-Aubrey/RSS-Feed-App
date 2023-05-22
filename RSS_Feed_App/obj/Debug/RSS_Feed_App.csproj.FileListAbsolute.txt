@@ -1,0 +1,11 @@
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\bin\Debug\RSS_Feed_App.exe.config
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\bin\Debug\RSS_Feed_App.exe
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\bin\Debug\RSS_Feed_App.pdb
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.Form1.resources
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.Properties.Resources.resources
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.csproj.GenerateResource.cache
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.exe
+C:\Users\user\Downloads\PRO\C#-project\RSS_Feed_App\obj\Debug\RSS_Feed_App.pdb
