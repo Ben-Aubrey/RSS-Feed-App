@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TopPanel = new System.Windows.Forms.Panel();
-            this.LblLogo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.LblLogo = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -52,16 +52,6 @@
             this.TopPanel.Size = new System.Drawing.Size(683, 44);
             this.TopPanel.TabIndex = 0;
             // 
-            // LblLogo
-            // 
-            this.LblLogo.AutoSize = true;
-            this.LblLogo.Font = new System.Drawing.Font("Segoe Script", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLogo.Location = new System.Drawing.Point(24, 9);
-            this.LblLogo.Name = "LblLogo";
-            this.LblLogo.Size = new System.Drawing.Size(122, 25);
-            this.LblLogo.TabIndex = 0;
-            this.LblLogo.Text = "RSS Feed App";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -74,6 +64,16 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // LblLogo
+            // 
+            this.LblLogo.AutoSize = true;
+            this.LblLogo.Font = new System.Drawing.Font("Segoe Script", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLogo.Location = new System.Drawing.Point(24, 9);
+            this.LblLogo.Name = "LblLogo";
+            this.LblLogo.Size = new System.Drawing.Size(122, 25);
+            this.LblLogo.TabIndex = 0;
+            this.LblLogo.Text = "RSS Feed App";
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(6, 46);
@@ -84,6 +84,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(44, 72);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 23);
@@ -111,7 +112,7 @@
             this.groupBox1.Size = new System.Drawing.Size(200, 406);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Control Box";
+            this.groupBox1.Text = "Welcome";
             // 
             // Form1
             // 

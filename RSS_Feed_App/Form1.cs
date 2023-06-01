@@ -1,16 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
-using System.ServiceModel;
-using System.ServiceModel.Description;
-using System.ServiceModel.Web;
 using System.ServiceModel.Syndication;
 
 namespace RSS_Feed_App
@@ -20,6 +11,30 @@ namespace RSS_Feed_App
         public Form1()
         {
             InitializeComponent();
+
+            textBox1.ForeColor = SystemColors.GrayText;
+            textBox1.Text = "Paste URL here";    // Initial placeholder text
+            textBox1.GotFocus += TextBox_GotFocus;
+            textBox1.LostFocus += TextBox_LostFocus;
+        }
+
+
+        private void TextBox_GotFocus(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Paste URL here")
+            {
+                textBox1.Text = "";
+                textBox1.ForeColor = SystemColors.WindowText;
+            }
+        }
+
+        private void TextBox_LostFocus(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                textBox1.ForeColor = SystemColors.GrayText;
+                textBox1.Text = "Paste URL here";
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
